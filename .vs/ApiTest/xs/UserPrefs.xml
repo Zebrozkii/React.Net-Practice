@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A652800E-59AF-4B69-B081-EFE8AEC1BDBD}|Default">
+  <MonoDevelop.Ide.ItemProperties.ApiTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApiTest/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="ApiTest/Controllers/SampleDataController.cs" Line="1" Column="1" />
+      <File FileName="ApiTest/Models/DataBase.cs" Line="1" Column="1" />
+      <File FileName="ApiTest/Models/DataBaseModel.cs" Line="1" Column="1" />
+      <File FileName="ApiTest/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="ApiTest/Controllers/HomeController.cs" Line="14" Column="37" />
+      <File FileName="ApiTest/Controllers/DatabaseController.cs" Line="1" Column="1" />
+      <File FileName="ApiTest/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ApiTest/appsettings.json" Line="1" Column="1" />
+      <File FileName="ApiTest/.gitignore" Line="1" Column="1" />
+      <File FileName="ApiTest/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="ApiTest/ClientApp/src/components/AdminData.js" Line="11" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jimmy/Projects/ApiTest/ApiTest/Models/DataBase.cs" relfile="ApiTest/Models/DataBase.cs" line="15" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
