@@ -6,6 +6,7 @@ import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
 import { AdminData } from './components/AdminData';
 import { GettingInfoFromDatabase } from './components/GettingInfoFromDatabase';
+import { TicketComponent } from './components/TicketComponent';
 
 export default class App extends Component {
   displayName = App.name
@@ -18,6 +19,7 @@ export default class App extends Component {
          <Route path='/fetchdata' component={FetchData} />
             <Route path='/admindata' component={AdminData} />
             <Route path='/databaseinfo' component={GettingInfoFromDatabase}/>
+            <Route path='/TicketInfo' component={TicketComponent}/>
       </Layout>
     );
   }

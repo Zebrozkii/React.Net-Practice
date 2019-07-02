@@ -8,7 +8,7 @@ export class GettingInfoFromDatabase extends Component {
     super(props);
     this.state = {datastuff: [], loading: true };
      
-      fetch('api/DatabaseAPI/GetAll')
+      fetch('api/Database/GetAlls')
       .then(response => response.json())
           .then(data => {
               console.log("indata")
@@ -31,8 +31,8 @@ export class GettingInfoFromDatabase extends Component {
           {datastuff.map(data =>
                     <tr key={data.id}>
                         <td>{data.id}</td>
-              <td>{data.UserName}</td>
-              <td>{data.PassWord}</td>
+              <td>{data.userName}</td>
+              <td>{data.passWord}</td>
             </tr>
           )}
         </tbody>

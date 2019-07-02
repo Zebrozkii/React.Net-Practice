@@ -25,9 +25,8 @@ namespace ApiTest.Models
             List<DataBaseModel> allDataBase = new List<DataBaseModel> { };
             MySqlConnection conn = DB.Connection();
             conn.Open();
-            Console.WriteLine("Conn Open");
             MySqlCommand cmd = conn.CreateCommand() as MySqlCommand;
-            cmd.CommandText = @"SELECT * FROM AdminData;";
+            cmd.CommandText = @"SELECT * FROM table1;";
             MySqlDataReader rdr = cmd.ExecuteReader() as MySqlDataReader;
             while (rdr.Read())
             {
@@ -41,7 +40,6 @@ namespace ApiTest.Models
             {
                 conn.Dispose();
             }
-            Console.WriteLine("Con Closed");
             return allDataBase;
         }
     }

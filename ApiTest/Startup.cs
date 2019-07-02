@@ -71,7 +71,7 @@ namespace ApiTest
 
     public static class DBConfiguration
     {
-        public static string ConnectionString = "server=localhost;user id=root;password=password;port=3306;database=testingconnectionDB;";
+        public static string ConnectionString = "server=localhost;user id=root;password=password;port=3306;database=sys;";
         
     }
 
